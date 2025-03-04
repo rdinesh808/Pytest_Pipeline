@@ -32,7 +32,5 @@ jobs:
       run: |
         cd com_pytest_practice
         echo "Running pytest"
-        echo "===================="
-        echo pwd
-        pytest
+        pytest -x -s -v
         
